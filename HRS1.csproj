@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{575A2827-244B-4BEF-8BF6-1D88C6CC8AFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRS1</RootNamespace>
+    <AssemblyName>HRS1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Booking\ctl_Booking.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Booking\ctl_Booking.Designer.cs">
+      <DependentUpon>ctl_Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking\frm_Booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking\frm_Booking.Designer.cs">
+      <DependentUpon>frm_Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\frm_Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\frm_Customer.Designer.cs">
+      <DependentUpon>frm_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\frm_CustomerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\frm_CustomerList.Designer.cs">
+      <DependentUpon>frm_CustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBA\clsBooking.cs" />
+    <Compile Include="DBA\clsBookingDetial.cs" />
+    <Compile Include="DBA\clsCustomer.cs" />
+    <Compile Include="DBA\clsEmployee.cs" />
+    <Compile Include="DBA\clsMainDB.cs" />
+    <Compile Include="DBA\clsRoom.cs" />
+    <Compile Include="DBA\clsRoomType.cs" />
+    <Compile Include="DBA\clsService.cs" />
+    <Compile Include="Employee\Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\frm_EmployeeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\frm_EmployeeList.Designer.cs">
+      <DependentUpon>frm_EmployeeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\frm_EmployeeUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\frm_EmployeeUpdate.Designer.cs">
+      <DependentUpon>frm_EmployeeUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\frm_LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn\frm_LogIn.Designer.cs">
+      <DependentUpon>frm_LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\frm_ManagerBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn\frm_ManagerBoard.Designer.cs">
+      <DependentUpon>frm_ManagerBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\frm_StaffBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn\frm_StaffBoard.Designer.cs">
+      <DependentUpon>frm_StaffBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Room\frm_Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room\frm_Room.Designer.cs">
+      <DependentUpon>frm_Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Room\frm_RoomList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room\frm_RoomList.Designer.cs">
+      <DependentUpon>frm_RoomList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Room\frm_RoomList1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room\frm_RoomList1.Designer.cs">
+      <DependentUpon>frm_RoomList1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Room\frm_RoomType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room\frm_RoomType.Designer.cs">
+      <DependentUpon>frm_RoomType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Room\frm_RoomTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room\frm_RoomTypeList.Designer.cs">
+      <DependentUpon>frm_RoomTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\frm_RoomUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\frm_RoomUpdate.Designer.cs">
+      <DependentUpon>frm_RoomUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\frm_Service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\frm_Service.Designer.cs">
+      <DependentUpon>frm_Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\frm_ServiceList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\frm_ServiceList.Designer.cs">
+      <DependentUpon>frm_ServiceList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Booking\ctl_Booking.resx">
+      <DependentUpon>ctl_Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking\frm_Booking.resx">
+      <DependentUpon>frm_Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\frm_Customer.resx">
+      <DependentUpon>frm_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\frm_CustomerList.resx">
+      <DependentUpon>frm_CustomerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\frm_EmployeeList.resx">
+      <DependentUpon>frm_EmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\frm_EmployeeUpdate.resx">
+      <DependentUpon>frm_EmployeeUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn\frm_LogIn.resx">
+      <DependentUpon>frm_LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn\frm_ManagerBoard.resx">
+      <DependentUpon>frm_ManagerBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn\frm_StaffBoard.resx">
+      <DependentUpon>frm_StaffBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Room\frm_Room.resx">
+      <DependentUpon>frm_Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Room\frm_RoomList.resx">
+      <DependentUpon>frm_RoomList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Room\frm_RoomList1.resx">
+      <DependentUpon>frm_RoomList1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Room\frm_RoomType.resx">
+      <DependentUpon>frm_RoomType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Room\frm_RoomTypeList.resx">
+      <DependentUpon>frm_RoomTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\frm_RoomUpdate.resx">
+      <DependentUpon>frm_RoomUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\frm_Service.resx">
+      <DependentUpon>frm_Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\frm_ServiceList.resx">
+      <DependentUpon>frm_ServiceList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
