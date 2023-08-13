@@ -1,0 +1,58 @@
+C:\Hotel Manament System\HRS1\HRS1\bin\Debug\HRS1.exe.config
+C:\Hotel Manament System\HRS1\HRS1\bin\Debug\HRS1.exe
+C:\Hotel Manament System\HRS1\HRS1\bin\Debug\HRS1.pdb
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Properties.Resources.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.csproj.GenerateResource.Cache
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.exe
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.pdb
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Room.frm_RoomTypeList.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Room.frm_RoomUpdate.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Room.frm_RoomType.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Room.frm_Room.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Customer.frm_Customer.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Customer.frm_CustomerList.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.frm_Main.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.LogIn.frm_LogIn.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.LogIn.frm_ManagerBoard.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Service.frm_Service.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Service.frm_ServiceList.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.LogIn.frm_StaffBoard.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Employee.frm_Employee.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Employee.frm_EmployeeList.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Employee.frm_EmployeeUpdate.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Room.frm_RoomList.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Room.frm_RoomList1.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Booking.frm_Booking.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.Booking.ctl_Booking.resources
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.csproj.AssemblyReference.cache
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.csproj.SuggestedBindingRedirects.cache
+C:\Hotel Manament System\HRS1\HRS1\obj\Debug\HRS1.csproj.CoreCompileInputs.cache
+C:\Hotel Manament System\Hotel Booking Update\HRS1\bin\Debug\HRS1.exe.config
+C:\Hotel Manament System\Hotel Booking Update\HRS1\bin\Debug\HRS1.exe
+C:\Hotel Manament System\Hotel Booking Update\HRS1\bin\Debug\HRS1.pdb
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.csproj.AssemblyReference.cache
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.csproj.SuggestedBindingRedirects.cache
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Booking.ctl_Booking.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Booking.frm_Booking.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Customer.frm_Customer.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Customer.frm_CustomerList.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Employee.frm_Employee.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Employee.frm_EmployeeList.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Employee.frm_EmployeeUpdate.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.frm_Main.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.LogIn.frm_LogIn.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.LogIn.frm_ManagerBoard.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.LogIn.frm_StaffBoard.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Properties.Resources.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Room.frm_Room.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Room.frm_RoomList.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Room.frm_RoomList1.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Room.frm_RoomType.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Room.frm_RoomTypeList.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Room.frm_RoomUpdate.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Service.frm_Service.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.Service.frm_ServiceList.resources
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.csproj.GenerateResource.cache
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.csproj.CoreCompileInputs.cache
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.exe
+C:\Hotel Manament System\Hotel Booking Update\HRS1\obj\Debug\HRS1.pdb
